@@ -25,6 +25,21 @@
 .w25{
     width: 25%;
 }
+.w100{
+    width: 100%;
+}
+
+.w48{
+    width: 48%;
+}
+
+.top20{
+    margin-top: 20px;
+}
+
+.top35{
+    margin-top: 35px;
+}
 
 .flex{
     display: flex;
@@ -86,6 +101,7 @@ header{
     left: 0;
     width: 100%;
     backdrop-filter: blur(6px);
+    z-index: 3;
 }
 
 header>nav{
@@ -100,6 +116,7 @@ header>nav{
 
 .sectionHero{
     height: 100vh;
+    position: relative;
 }
 
 .bgHero{
@@ -119,4 +136,39 @@ header>nav{
 
 .divHero>p{
     font-size: 25px;
+}
+
+/*Section services*/
+
+.carteViolette{
+    background-color: #4d3e9a69;
+    display: block;
+    width: 23%;
+    padding: 40px 0px;
+    text-align: center;
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+    
+}
+
+.sectionServices{
+    position: relative;
+    top: -55px;
+}
+
+.pGauche{
+    background-color: #4336876c;
+    backdrop-filter: blur(6px);
+    position: relative;
+    top: -20px;
+}
+
+.padding{
+    padding: 15px 5px;
+}
+
+.pDroite{
+    border-radius: 10px;
+    padding: 15px 5px;
+    position: static;
 }
